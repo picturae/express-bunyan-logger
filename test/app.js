@@ -9,4 +9,4 @@ app.get('/', function(req, res) {
 app.use(bunyanLogger());
 app.use(bunyanLogger.errorLogger());
 
-app.listen(5000);
+app.listen(5050);
